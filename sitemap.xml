@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://caleblarsen.github.io/posts/nature/</loc>
+    <lastmod>2021-05-23T11:39:33-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://caleblarsen.github.io/posts/</loc>
+    <lastmod>2021-05-23T11:39:33-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://caleblarsen.github.io/</loc>
     <lastmod>2021-05-22T23:29:55-06:00</lastmod>
   </url>
@@ -10,11 +20,6 @@
   <url>
     <loc>https://caleblarsen.github.io/blog/</loc>
     <lastmod>2021-05-22T23:29:55-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://caleblarsen.github.io/posts/</loc>
-    <lastmod>2021-05-22T22:58:18-06:00</lastmod>
   </url>
   
   <url>

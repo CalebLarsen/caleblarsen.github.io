@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Caleb Larsen 2021</copyright>
-    <lastBuildDate>Sat, 22 May 2021 22:58:18 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 23 May 2021 11:39:33 -0600</lastBuildDate>
     
 	<atom:link href="https://caleblarsen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nature</title>
+      <link>https://caleblarsen.github.io/posts/nature/</link>
+      <pubDate>Sun, 23 May 2021 11:39:33 -0600</pubDate>
+      
+      <guid>https://caleblarsen.github.io/posts/nature/</guid>
+      <description>Nature As a programmer, it is immensely easy for me to avoid all encounters with nature. The most prestigious jobs are located in large cities, the work is done indoors, and field has rather few positions working directly with nature.
+This all proves to be rather unfortunate since I find soul dying when I disconnect from nature for too long. Even something as simple as a park can be enough to get me by.</description>
+    </item>
     
     <item>
       <title>Welcome</title>
