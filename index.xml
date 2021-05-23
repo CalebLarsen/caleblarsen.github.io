@@ -7,18 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Caleb Larsen 2021</copyright>
-    <lastBuildDate>Sat, 22 May 2021 22:58:18 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 May 2021 23:29:55 -0600</lastBuildDate>
     
 	<atom:link href="https://caleblarsen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
+      <title>Blog</title>
+      <link>https://caleblarsen.github.io/blog/</link>
+      <pubDate>Sat, 22 May 2021 23:29:55 -0600</pubDate>
+      
+      <guid>https://caleblarsen.github.io/blog/</guid>
+      <description>Posts</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
       <link>https://caleblarsen.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 22 May 2021 22:58:18 -0600</pubDate>
       
       <guid>https://caleblarsen.github.io/posts/my-first-post/</guid>
-      <description>Hugo test.</description>
+      <description>Hello! Since my inspirations all have a blog, here I am. My goal here is to collect my thoughts, improve as a communicator, and become more of myself. The novelty of this experiment is going to make things a bit rough, but I am of the belief that that is part of the journey. If anyone reads this, I wish you well on your journey and hope that I can be a positive influence, however small.</description>
     </item>
     
   </channel>
