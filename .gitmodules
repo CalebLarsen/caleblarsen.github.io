@@ -1,0 +1,3 @@
+[submodule "quickstart/themes/researcher"]
+	path = quickstart/themes/researcher
+	url = https://github.com/ojroques/hugo-researcher.git
