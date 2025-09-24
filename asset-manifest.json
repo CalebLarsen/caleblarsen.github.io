@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/senseless/static/css/main.935a3b15.css",
+    "main.js": "/senseless/static/js/main.9f55c74b.js",
+    "static/js/453.6c930f01.chunk.js": "/senseless/static/js/453.6c930f01.chunk.js",
+    "index.html": "/senseless/index.html",
+    "main.935a3b15.css.map": "/senseless/static/css/main.935a3b15.css.map",
+    "main.9f55c74b.js.map": "/senseless/static/js/main.9f55c74b.js.map",
+    "453.6c930f01.chunk.js.map": "/senseless/static/js/453.6c930f01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.935a3b15.css",
+    "static/js/main.9f55c74b.js"
+  ]
+}
