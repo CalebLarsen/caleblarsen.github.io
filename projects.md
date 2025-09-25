@@ -10,6 +10,9 @@ Exploration of experiencing senses individually. Built with React and Typescript
 ### [Helix Editor Contributions](https://github.com/helix-editor/helix/commits/master/?author=CalebLarsen)
 During the summer of 2025, I contributed to the [Helix editor](https://github.com/helix-editor/helix), focusing on bugfixes and community support.
 
+### [Seabridge](https://github.com/CalebLarsen/seabridge)
+Between December 2024 and February 2025, I made a program using code written in 12 different programming languages.
+
 ### [CORDIC Implementation](https://github.com/CalebLarsen/CORDIC)
 C and Assembly implementation of the [CORDIC](https://en.wikipedia.org/wiki/CORDIC) algorithm.
 
