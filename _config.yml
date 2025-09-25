@@ -19,20 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Caleb Larsen's Site
-email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  A home for my projects and thoughts
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://caleblarsen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:  Caleb Larsen
+github_username:  CalebLarsen
 
 # Build settings
-theme: minima
+# theme: minima
+# remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  # - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -50,7 +49,7 @@ exclude:
 #   - Gemfile.lock
   - node_modules/
   - senseless/node_modules
-  - senseless-src/node_modules
+  - senseless-src/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

@@ -1,3 +1,3 @@
 all:
-	cd senseless-src && npm run deploy
+	cd senseless-src && npm run build
 	bundle exec jekyll build
