@@ -4,6 +4,9 @@ title: Projects
 ---
 # My Projects
 
+### [Image Triangulation Demo](/image)
+Reimplementation of process described in [this](https://medium.com/@J.R.Ingram/triangulating-images-using-delauny-triangulation-11bc0f9fd2d9) article with configurable parameters.
+
 ### [Senseless](/senseless.html)
 Exploration of experiencing senses individually. Built with React and Typescript.
 
