@@ -10,7 +10,7 @@ $container-max-width: 1000px;
 
 @mixin media-max-width($max-width) {
   @media (max-width: $max-width) {
-      @content;
+    @content;
   }
 }
 
@@ -37,12 +37,17 @@ section {
   margin: 0 0 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 20px;
 }
 
 li {
-  line-height: 1.4 ;
+  line-height: 1.4;
 }
 
 /* Header, <header>
@@ -65,12 +70,13 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: default_colors.$conifer;//$header;
+  color: default_colors.$conifer; //$header;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+    0 0 5px rgba(181, 232, 83, 0.1),
+    0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+
   @include media-max-width($container-max-width) {
     margin-left: 0;
   }
@@ -101,18 +107,24 @@ header h2 {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
+
 section img {
   max-width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+    0 0 5px rgba(181, 232, 83, 0.1),
+    0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
@@ -150,7 +162,7 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../images/bullet.png');
+  list-style-image: url('../images/bullet.png');
 }
 
 blockquote {
@@ -172,7 +184,7 @@ pre {
 }
 
 code.highlighter-rouge {
-  background: rgba(0,0,0,0.9);
+  background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0px 3px;
   margin: 0px -3px;
@@ -245,17 +257,18 @@ a {
 
 /* Clearfix */
 
-.cf:before, .cf:after {
-  content:"";
-  display:table;
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
 }
 
 .cf:after {
-  clear:both;
+  clear: both;
 }
 
 .cf {
-  zoom:1;
+  zoom: 1;
 }
 
 #a-title {
@@ -265,9 +278,9 @@ a {
 /* My added styles */
 
 nav {
-  padding: 1rem 2rem; 
+  padding: 1rem 2rem;
   min-height: 60px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .nav-link {
@@ -275,7 +288,7 @@ nav {
 }
 
 .demo-title {
-  text-align: center;  
+  text-align: center;
 }
 
 #demo-container {
@@ -291,20 +304,20 @@ canvas#target {
 
 .demo-button-box {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   /* margin-left: 35%; */
   /* margin-right: 35%; */
 }
 
 .demo-button {
-  width:1em;
-  height:1em;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
   background: deeppink;
   padding: 0.25em;
   font-size: 3em;
-  cursor:pointer;
-  user-select:none;
+  cursor: pointer;
+  user-select: none;
 
   display: flex;
   justify-content: center;
@@ -318,7 +331,9 @@ canvas#target {
 h1 {
   margin-left: 2rem;
 }
-h3, p {
+
+h3,
+p {
   margin-left: 3rem;
 }
 
