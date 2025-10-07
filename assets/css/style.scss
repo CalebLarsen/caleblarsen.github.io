@@ -1,7 +1,72 @@
 ---
 ---
-/* @import 'jekyll-theme-hacker'; */
 @use 'jekyll-theme-hacker';
+
+nav {
+  padding: 1rem 2rem;
+  min-height: 60px;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  padding-right: 2rem;
+}
+
+.demo-title {
+  text-align: center;
+}
+
+#demo-container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+canvas#target {
+  display: block;
+  margin-inline: auto;
+}
+
+.demo-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.demo-button {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: deeppink;
+  padding: 0.25em;
+  font-size: 3em;
+  cursor: pointer;
+  user-select: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-button:hover {
+  background: hotpink;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+h3,
+p {
+  margin-left: 3rem;
+}
+
+ul {
+  margin-left: 3rem;
+}
+
+.highlight {
+  margin-left: 1.5rem;
+}
 
 .pipeline-step {
   display: grid;
