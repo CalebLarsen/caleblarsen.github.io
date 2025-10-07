@@ -19,5 +19,6 @@ exclude:
   - node_modules/
   - senseless/node_modules
   - senseless-src/
+  - todo.md
 
 include: ["senseless/build"]

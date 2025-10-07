@@ -7,7 +7,7 @@ title: Projects
 ### [Image Triangulation Demo](/image)
 Reimplementation of process described in [this](https://medium.com/@J.R.Ingram/triangulating-images-using-delauny-triangulation-11bc0f9fd2d9) article with configurable parameters.
 
-### [Senseless](/senseless.html)
+### [Senseless](/senseless)
 Exploration of experiencing senses individually. Built with React and Typescript.
 
 ### [Helix Editor Contributions](https://github.com/helix-editor/helix/commits/master/?author=CalebLarsen)

@@ -57,6 +57,7 @@ imageInput.addEventListener('change', function(event) {
         width = height * aspectRatio;
       }
     }
+    console.log(img.width, img.height, width, height, img.height/img.width, height/width);
     const canvasOriginal = document.getElementById('canvas-original');
     const canvasBlurred = document.getElementById('canvas-blurred');
     const canvasGrayscale = document.getElementById('canvas-grayscale');
@@ -69,7 +70,6 @@ imageInput.addEventListener('change', function(event) {
     const canvasAnimated = document.getElementById('canvas-animated');
     const canvases = [canvasOriginal, canvasBlurred, canvasGrayscale, canvasSobel, canvasThreshold, canvasThinned, canvasVertices, canvasTriangled, canvasFinal, canvasAnimated];
     canvases.forEach((canvas) => {
-      console.log(canvas);
       canvas.width = width;
       canvas.height = height;
     })

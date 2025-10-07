@@ -1,7 +1,7 @@
 ---
 ---
-
-@import 'jekyll-theme-hacker';
+/* @import 'jekyll-theme-hacker'; */
+@use 'jekyll-theme-hacker';
 
 .pipeline-step {
   display: grid;
@@ -24,11 +24,11 @@
   grid-row: 2;
   grid-column: 2;
   justify-self: center;
-  
+
   max-width: 800px;
   max-height: 800px;
   width: 800px;
-  height:600px;
+  height: 600px;
   height: auto;
   border: 1px solid #555;
 }
